@@ -1,0 +1,44 @@
+name: iptv优质源
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'
+  workflow_dispatch:    
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+     TZ: Asia/Shanghai
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+    
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: tools
+        run: | 
+          pip install selenium requests futures eventlet
+          python ./tools/iptv.py
+        shell: bash
+
+      - name: move
+        run: |
+          pwd 
+          cd output/
+          \cp ./ipv4/result.txt ../live.txt
+          cd ../
+        shell: bash
+          
+      - name: 提交更改
+        run: |
+          git config user.email "zhoujck@live.com"
+          git config user.name "zhoujck" 
+          git add .
+          git commit -m "action: `date`"
+          git push -f
+     

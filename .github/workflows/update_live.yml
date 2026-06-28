@@ -1,0 +1,70 @@
+name: 更新直播源
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # UTC 时间每天 00:00
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 仓库
+        uses: actions/checkout@v3
+
+      - name: 设置 Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install requests
+
+      - name: 运行下载脚本
+        run: |
+          python - <<'EOF'
+          import os
+          import requests
+          from datetime import datetime
+
+          folder = "."
+          os.makedirs(folder, exist_ok=True)
+
+          urls = {
+              "video.json": "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/video.json",
+              "tv.txt": "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.txt",
+              "zubo_all.txt": "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt"
+          }
+
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/120.0.0.0 Safari/537.36"
+          }
+
+          for filename, url in urls.items():
+              file_path = os.path.join(folder, filename)
+              print(f"➡️ 正在下载: {url} -> {file_path}")
+              try:
+                  response = requests.get(url, headers=headers, timeout=20)
+                  response.raise_for_status()
+                  with open(file_path, "wb") as f:
+                      f.write(response.content)
+                  print(f"✅ 成功更新: {file_path} ({len(response.content)} bytes)")
+              except Exception as e:
+                  print(f"❌ 下载失败 {url} -> {e}")
+
+          last_update_file = os.path.join(folder, "last_update.txt")
+          with open(last_update_file, "w") as f:
+              f.write(f"Last update: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+          print(f"📅 更新时间已记录 -> {last_update_file}")
+          EOF
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add video.json tv.txt zubo_all.txt last_update.txt
+          git commit -m "自动更新直播源 $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "没有变化"
+          git push
