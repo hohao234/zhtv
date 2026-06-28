@@ -46,13 +46,7 @@ CETV4|CETV-4|中国教育4台|
 书画|
 
 卫视频道,#genre#
-重温经典|
-凤凰卫视中文台|凤凰中文|
-凤凰卫视资讯台|凤凰资讯|
-凤凰卫视香港台|凤凰香港|凤凰卫视香港|
-香港卫视|
-星空卫视|
-Chanle V|
+
 湖南卫视|
 浙江卫视|
 东方卫视|
@@ -95,6 +89,13 @@ Chanle V|
 农林卫视|
 三沙卫视|
 延边卫视|
+凤凰卫视中文台|凤凰中文|
+凤凰卫视资讯台|凤凰资讯|
+凤凰卫视香港台|凤凰香港|凤凰卫视香港|
+香港卫视|
+星空卫视|
+Chanle V|
+
 
 数字频道,#genre#
 CHC影迷电影|CHC高清电影|
@@ -111,6 +112,7 @@ IPTV热播剧场|
 睛彩竞技|
 睛彩篮球|
 睛彩广场|
+重温经典|
 SiTV欢笑剧场|欢笑剧场|SiTV欢笑剧4k|
 SiTV都市剧场|都市剧场|
 SiTV 七彩戏剧|七彩戏剧|
@@ -125,39 +127,6 @@ SiTV动漫秀场|动漫秀场|
 军事迷必看大片|
 新片放映厅|
 红色轮播台|
-
-NewTV黑莓电影|黑莓电影|
-NewTV黑莓动画|黑莓动画|
-NewTV超级体育|超级体育|NewTV超级体育 4M1080|NewTV_超级体育「IPV6」|
-NewTV超级电影|超级电影|NewTV超级电影 4M1080|NewTV_超级电影「IPV6」|
-NewTV超级电视剧|超级电视剧|NewTV超级电视剧 4M1080|超级视剧|NewTV_超级电视剧「IPV6」|
-NewTV爱情喜剧|爱情喜剧|
-NewTV东北热剧|东北热剧|NewTV东北热剧 4M1080|newtv东北热剧|
-NewTV海外剧场|海外剧场|newtv海外剧场 |
-NewTV古装剧场|古装剧场|newtv古装剧场|NewTV_古装剧场「IPV6」|
-NewTV中国功夫|中国功夫|newtv中国功夫|NewTV_中国功夫「IPV6」|
-NewTV军旅剧场|军旅剧场|newtv军旅剧场|NewTV_军旅剧场「IPV6」|
-NewTV动作电影|动作电影|newtv动作电影|NewTV_动作电影「IPV6」|
-NewTV惊悚悬疑|惊悚悬疑|newtv惊悚悬疑|NewTV_惊悚悬疑「IPV6」|
-NewTV潮妈辣婆|潮妈辣婆|newtv潮妈辣婆|NewTV_潮妈辣婆「IPV6」|
-NewTV精品体育|精品体育|newtv精品体育|NewTV_精品体育「IPV6」|
-NewTV精品纪录|精品纪录|newtv精品纪录|
-NewTV家庭剧场|家庭剧场|newtv家庭剧场|NewTV_家庭剧场「IPV6」|
-NewTV精品大剧|精品大剧|newtv精品大剧|
-NewTV军事评论|军事评论|newtv军事评论|NewTV_军事评论「IPV6」|
-NewTV明星大片|明星大片|newtv明星大片|
-NewTV欢乐剧场|欢乐剧场|newtv欢乐剧场|NewTV_欢乐剧场「IPV6」|
-NewTV精品萌宠|精品萌宠|NewTV精品萌宠|NewTV_精品萌宠「IPV6」|
-NewTV精品综合|精品综合|
-NewTV超级综艺|超级综艺|newtv超级综艺|NewTV_超级综艺「IPV6」|
-NewTV金牌综艺|金牌综艺|newtv金牌综艺|NewTV_金牌综艺「IPV6」|
-NewTV欢乐剧场|欢乐剧场|newtv欢乐剧场|
-NewTV魅力潇湘|魅力潇湘|newtv魅力潇湘|
-NewTV明星大片|明星大片|newtv明星大片|
-NewTV农业致富|农业致富|newtv农业致富|
-NewTV武博世界|武博世界|newtv武博世界|
-NewTV炫舞未来|炫舞未来|newtv炫舞未来|
-NewTV中国功夫|中国功夫|newtv中国功夫|
 怡伴健康|
 NewTV哒啵赛事|哒啵赛事|
 亚洲影院|iHot亚洲影院|
@@ -210,10 +179,41 @@ i-HOT爱青春|
 环球奇观|
 环球旅游|
 人与自然|
+NewTV黑莓电影|黑莓电影|
+NewTV黑莓动画|黑莓动画|
+NewTV超级体育|超级体育|NewTV超级体育 4M1080|NewTV_超级体育「IPV6」|
+NewTV超级电影|超级电影|NewTV超级电影 4M1080|NewTV_超级电影「IPV6」|
+NewTV超级电视剧|超级电视剧|NewTV超级电视剧 4M1080|超级视剧|NewTV_超级电视剧「IPV6」|
+NewTV爱情喜剧|爱情喜剧|
+NewTV东北热剧|东北热剧|NewTV东北热剧 4M1080|newtv东北热剧|
+NewTV海外剧场|海外剧场|newtv海外剧场 |
+NewTV古装剧场|古装剧场|newtv古装剧场|NewTV_古装剧场「IPV6」|
+NewTV中国功夫|中国功夫|newtv中国功夫|NewTV_中国功夫「IPV6」|
+NewTV军旅剧场|军旅剧场|newtv军旅剧场|NewTV_军旅剧场「IPV6」|
+NewTV动作电影|动作电影|newtv动作电影|NewTV_动作电影「IPV6」|
+NewTV惊悚悬疑|惊悚悬疑|newtv惊悚悬疑|NewTV_惊悚悬疑「IPV6」|
+NewTV潮妈辣婆|潮妈辣婆|newtv潮妈辣婆|NewTV_潮妈辣婆「IPV6」|
+NewTV精品体育|精品体育|newtv精品体育|NewTV_精品体育「IPV6」|
+NewTV精品纪录|精品纪录|newtv精品纪录|
+NewTV家庭剧场|家庭剧场|newtv家庭剧场|NewTV_家庭剧场「IPV6」|
+NewTV精品大剧|精品大剧|newtv精品大剧|
+NewTV军事评论|军事评论|newtv军事评论|NewTV_军事评论「IPV6」|
+NewTV明星大片|明星大片|newtv明星大片|
+NewTV欢乐剧场|欢乐剧场|newtv欢乐剧场|NewTV_欢乐剧场「IPV6」|
+NewTV精品萌宠|精品萌宠|NewTV精品萌宠|NewTV_精品萌宠「IPV6」|
+NewTV精品综合|精品综合|
+NewTV超级综艺|超级综艺|newtv超级综艺|NewTV_超级综艺「IPV6」|
+NewTV金牌综艺|金牌综艺|newtv金牌综艺|NewTV_金牌综艺「IPV6」|
+NewTV欢乐剧场|欢乐剧场|newtv欢乐剧场|
+NewTV魅力潇湘|魅力潇湘|newtv魅力潇湘|
+NewTV明星大片|明星大片|newtv明星大片|
+NewTV农业致富|农业致富|newtv农业致富|
+NewTV武博世界|武博世界|newtv武博世界|
+NewTV炫舞未来|炫舞未来|newtv炫舞未来|
+NewTV中国功夫|中国功夫|newtv中国功夫|
 
 ☘️轮播台,#genre#
 射雕英雄传|huya/23824164|yy.php?id=1354210357|
-
 电影_星爷|huya/11342412
 电影_英叔|huya/11342421
 电影_发哥|huya/11342387
@@ -480,7 +480,7 @@ i-HOT爱青春|
 安徽公共频道|安徽公共|
 安徽综艺体育频道|安徽综艺体育|
 安徽农业科教频道|安徽农业科技|
-合肥新闻综合频道|合肥新闻|安徽｜合肥新闻|
+合肥新闻综合频道|合肥新闻|安徽|合肥新闻|
 合肥公共频道|安徽｜合肥公共|
 蚌埠新闻频道|蚌埠新闻|
 蚌埠公共频道|蚌埠公共|
@@ -1970,45 +1970,6 @@ SCTV7|
 文成综合频道|
 
 ☘️港·澳·台,#genre#
-凤凰中文|鳳凰中文|
-凤凰资讯|鳳凰資訊|
-凤凰香港|鳳凰香港|
-凤凰电影|
-经典香港电影|
-好莱坞电影|好莱电影|
-香港卫视|
-星空卫视|
-亚洲卫视|
-莲花卫视|
-澳亚卫视|
-环球电视|
-Chanle V|
-Now爆谷|爆谷台|
-Now星影|
-RTHK-31|
-RTHK-32|RTHK-32|
-RTHK-33|香港33台|
-RTHK-34|香港34台|RTHK34|
-RTHK-35|香港35台|
-香港C+|
-TVB翡翠台|翡翠台|香港翡翠|TVB翡翠|TVB翡翠2|翡翠|TVB翡翠台 4K|
-TVB明珠台|明珠台|TVB明珠|
-TVB千禧经典|千禧经典|
-TVB无线功夫|
-TVB无线华丽|
-TVB无线新闻|无线新闻|无线新闻台|无线新闻|
-TVB无线新闻台(北美)|
-TVB星河|星河|星河台|TVB星河国语|
-TVBS|TVBS HD|
-TVBS新闻台|TVBS新闻|TVBS新聞|tvbs新闻|
-TVBS欢乐台|TVBS欢乐|tvbs欢乐|
-TVB娱乐新闻|
-TVBS精采|TVBS精彩
-TVBS亚洲|
-tvbs闽南|
-J2|TVB J2台|TVB-Plus|
-TVB武侠|
-TVBJ1|
 台视|台視|
 台视新闻|台視新聞|TW台视新闻|
 台视综合|
@@ -2069,55 +2030,6 @@ CAT电影|
 八大精彩|
 八大综合|
 TVBS-新聞台|
-28 AI 智慧賽馬|
-Channel 5 HD|
-Channel 8 HD|
-Channel U HD|
-Hoy 78|
-myTV SUPER 18台|
-PopC|
-ROCK Action|
-TVB Plus|
-tvN|
-中天亞洲台|
-千禧經典台|
-娛樂新聞台(HK)|
-寰宇新聞台|寰宇新聞|
-寰宇新闻台湾|
-寰宇财经|
-寰宇闽南|
-亞洲新聞台|
-明珠剧集台(北美)|
-明珠台|
-無線新聞台|
-美亞電影台(HK)|
-翡翠剧集台(北美)|
-翡翠台|
-TVB黄金翡翠|
-翡翠综合台(北美)|
-華視|
-靖天電影台|
-黃金翡翠台|
-龍華日韓台|
-龍華經典台|
-龍華電影台|
-Now星影台|
-TVB 星河台|
-viutv 99|
-viutv6 96|
-无线新闻台(北美)|
-Animax-HK|
-C+台|
-DW|
-France 24|
-KIX|
-Love Nature HD|
-NHK World-Japan|
-Nick Jr|
-Nickelodeon|
-ROCK Action|
-Thrill|
-ZooMoo|
 公视戏剧|
 公视|公視|
 公视台语|
@@ -2172,6 +2084,94 @@ ZooMoo|
 亚洲新闻|
 亚洲美食|
 原住民电视|
+TVB翡翠台|翡翠台|香港翡翠|TVB翡翠|TVB翡翠2|翡翠|TVB翡翠台 4K|
+TVB明珠台|明珠台|TVB明珠|
+TVB千禧经典|千禧经典|
+TVB无线功夫|
+TVB无线华丽|
+TVB无线新闻|无线新闻|无线新闻台|无线新闻|
+TVB无线新闻台(北美)|
+TVB星河|星河|星河台|TVB星河国语|
+TVBS|TVBS HD|
+TVBS新闻台|TVBS新闻|TVBS新聞|tvbs新闻|
+TVBS欢乐台|TVBS欢乐|tvbs欢乐|
+TVB娱乐新闻|
+TVBS精采|TVBS精彩
+TVBS亚洲|
+tvbs闽南|
+J2|TVB J2台|TVB-Plus|
+TVB武侠|
+TVBJ1|
+凤凰中文|鳳凰中文|
+凤凰资讯|鳳凰資訊|
+凤凰香港|鳳凰香港|
+凤凰电影|
+经典香港电影|
+好莱坞电影|好莱电影|
+香港卫视|
+星空卫视|
+亚洲卫视|
+莲花卫视|
+澳亚卫视|
+环球电视|
+Chanle V|
+Now爆谷|爆谷台|
+Now星影|
+RTHK-31|
+RTHK-32|RTHK-32|
+RTHK-33|香港33台|
+RTHK-34|香港34台|RTHK34|
+RTHK-35|香港35台|
+香港C+|
+28 AI 智慧賽馬|
+Channel 5 HD|
+Channel 8 HD|
+Channel U HD|
+Hoy 78|
+myTV SUPER 18台|
+PopC|
+ROCK Action|
+TVB Plus|
+tvN|
+中天亞洲台|
+千禧經典台|
+娛樂新聞台(HK)|
+寰宇新聞台|寰宇新聞|
+寰宇新闻台湾|
+寰宇财经|
+寰宇闽南|
+亞洲新聞台|
+明珠剧集台(北美)|
+明珠台|
+無線新聞台|
+美亞電影台(HK)|
+翡翠剧集台(北美)|
+翡翠台|
+TVB黄金翡翠|
+翡翠综合台(北美)|
+華視|
+靖天電影台|
+黃金翡翠台|
+龍華日韓台|
+龍華經典台|
+龍華電影台|
+Now星影台|
+TVB 星河台|
+viutv 99|
+viutv6 96|
+无线新闻台(北美)|
+Animax-HK|
+C+台|
+DW|
+France 24|
+KIX|
+Love Nature HD|
+NHK World-Japan|
+Nick Jr|
+Nickelodeon|
+ROCK Action|
+Thrill|
+ZooMoo|
 新加坡国际|
 ☘️地方影视,#genre#
 中国电影|
